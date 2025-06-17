@@ -1,0 +1,41 @@
+# OS関連ファイル
+.DS_Store
+Thumbs.db
+
+# PHP関連
+/vendor/
+composer.lock
+
+# 環境設定ファイル
+.env
+config.php
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル・キャッシュ
+/tmp/
+/temp/
+cache/
+
+# IDE・エディタ関連
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# フロントエンド依存（必要な場合）
+node_modules/
+
+# ビルド成果物
+build/
+dist/
+
+# テストカバレッジ
+coverage/
+
+# パッケージマネージャのログ
+npm-debug.log
+yarn-error.log
+
